@@ -3,17 +3,18 @@ ASP.NET Core Light forum NETCoreBBS
 
 ASP.NET Core + EF Core Sqlite + Bootstrap 
 
-.NET Core 跨平台轻论坛
+.NET Core Cross flatform light forum
 
-[使用技术点介绍](http://www.cnblogs.com/linezero/p/NETCoreBBS.html)
+[기술 포인트 소개](http://www.cnblogs.com/linezero/p/NETCoreBBS.html)
 
-## 开发
+## 개발
 
 1. `git clone https://github.com/linezero/NETCoreBBS.git`
-2. 使用 Visual Studio 2019 打开 `NetCoreBBS.sln` 
-3. 点击 `调试->开始调试` 即可运行起来,或者直接点击工具栏上的`NetCoreBBS`即可。
+2. Visual Studio 2019에서 `NetCoreBBS.sln` 실행
+3. 디버그-> 디버그 시작을 클릭하여 실행을 시작하거나 도구 모음에서 NetCoreBBS를 클릭합니다.
 
-注意：默认为80端口，可能会和本地端口冲突，可以到Program.cs 中更改 `.UseUrls("http://*:80")`,然后更改启动URL既可。
+참고 : 기본 포트는 80으로 로컬 포트와 충돌 할 수 있습니다. Program.cs에서 .UseUrls ( "http : // * : 80")를 변경 한 다음 시작 URL을 변경할 수 있습니다.
+
 
 ## 功能
 
@@ -28,7 +29,8 @@ ASP.NET Core + EF Core Sqlite + Bootstrap
 
 ## 后台管理
 
-使用 admin 注册后默认即为管理员，登录后可以看到管理中心选项。
+관리자로 등록하면 기본적으로 관리자가되며, 로그인 후 관리 센터 옵션을 볼 수 있습니다.
+
 
 ## License
 NETCoreBBS is licensed under [MIT](LICENSE).
